@@ -1,0 +1,14 @@
+[package]
+name = "assert_matches_regex"
+version = "0.1.0"
+authors = ["Andres Suarez <zertosh@gmail.com>"]
+edition = "2021"
+description = "Macro for asserting that a string matches a regex"
+documentation = "https://docs.rs/assert_matches_regex"
+readme = "README.md"
+repository = "https://github.com/zertosh/assert_matches_regex"
+license = "MIT OR Apache-2.0"
+categories = ["development-tools::testing"]
+
+[dependencies]
+regex = "1"
